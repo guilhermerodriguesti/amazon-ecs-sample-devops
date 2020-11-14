@@ -1,9 +1,6 @@
 # amazon-ecs-sample-devops
 
-1 - Replace ecs-deploy.sh with:
-   a.AWS_ACCESS_KEY_ID
-   b.AWS_SECRET_ACCESS_KEY
-   c.KEY PAIR
+# Replace ecs-deploy.sh | AWS_ACCESS_KEY_ID | AWS_SECRET_ACCESS_KEY | KEY PAIR
    
    ecs-cli configure profile --profile-name wordpress --access-key $AWS_ACCESS_KEY_ID --secret-key $AWS_SECRET_ACCESS_KEY
    
